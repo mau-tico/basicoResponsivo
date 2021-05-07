@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /* line-height: 1.6; */
+    /* max-width: 100%; */
+    /* El max-width en % para que los textos
+    no se desborden a los lados */
+    /*  max-width: 98%; */
+    /* margin: 0 auto; */
+    /* text-align: justify; */
+    /* Deja sangria */
+    /* text-indent: 1rem; */
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Fira Sans', sans-serif;
+    /* background-color: #FFF; */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.c1, .c2, .c3, .c4, .c5 {
+    width: 100%;
+    min-width: 15rem;
+    height: 15rem;
+}
+
+.c1 {
+    background-color: #c9c3c1;
+}
+
+.c2 {
+    background-color: #e7c35c;
+}
+
+.c3 {
+    background-color: #19255d;
+}
+
+.c4 {
+    background-color: #48e1ea;
+}
+
+.c5 {
+    background-color: #857cbc;
+}
+
+/* @media (min-width: 600px) {
+    .c2, .c3, .c4 {
+        width: 50%;
+    }
+} */
+
+/* @media (min-width: 800px) {
+    .container {
+        width: 800px;
+        margin: 0 auto;
+    }
+    .c1 {
+        width: 60%;
+    }
+    .c2 {
+        width: 40%;
+    }
+    .c3, .c4 {
+        width: 33%;
+    }
+    .c5 {
+        width: 34%;
+    }
+} */
